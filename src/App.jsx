@@ -3,6 +3,7 @@ import Hero from './Components/Hero.jsx'
 import Section from './Components/Section.jsx'
 import Footer from './Components/Footer.jsx'
 import Massage from './Components/Massage.jsx'
+import Contact from './Components/Contact.jsx'
 
 function App() {
   return(
@@ -11,6 +12,7 @@ function App() {
     <Hero/>
     <Section/>
     <Massage/>
+    <Contact/>
     <Footer/>
     </>
   )
