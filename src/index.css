@@ -732,7 +732,15 @@
   }
 
   .contacts-map form {
-    width: 400px;
+    width: 380px;
+  }
+
+  .contacts-map form input {
+    width: 300px;
+  }
+
+  .contacts-map form textarea {
+    width: 300px;
   }
 
   .contacts-map form .button-reservation {
@@ -741,7 +749,7 @@
   }
 
   .map-frame {
-    width: 450px;
+    width: 380px;
   }
 
 }
