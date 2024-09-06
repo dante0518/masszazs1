@@ -510,6 +510,34 @@
 
 }
 
+@media (max-width: 1200px) {
+  .contacts-container .info-container .telefon-address{
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .contacts-map form {
+    width: 370px;
+  }
+
+  .contacts-map form input {
+    width: 300px;
+  }
+
+  .contacts-map form textarea {
+    width: 300px;
+  }
+
+  .contacts-map form .button-reservation {
+    margin-top: 35px;
+    display: block;
+  }
+
+  .map-frame {
+    width: 370px;
+  }
+} 
+
 @media (max-width: 870px) {
   .header-container {
     min-height: 100px;
@@ -723,6 +751,7 @@
   .social-media {
     margin-top: 15px;
   }
+
   .footer-container {
     margin-top: 10px;
   }
