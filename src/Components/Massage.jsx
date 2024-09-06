@@ -17,7 +17,7 @@ function Massage() {
         <div className="massage-card-container">
             <div className="massage-card">
                 <img src={Back} alt="hát" />
-                <p>Svég masszázs</p>
+                <p>Svéd masszázs</p>
             </div>
             <div className="massage-card">
                 <img src={Head} alt="hát" />
