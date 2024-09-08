@@ -863,6 +863,14 @@
     width: 300px;
   }
 
+  #reservation-480 {
+    display: block;
+    margin-bottom: 50px;
+    margin-top: -150px;
+    width: 200px;
+    height: 50px;
+  }
+
 }
 
 
