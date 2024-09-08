@@ -49,6 +49,7 @@ function Header() {
               <a href="#top">Kezdőlap</a>
               <a href="#szolgaltatasok">Szolgáltatások</a>
               <a href="#elerhetoseg">Elérhetőség</a>
+              <a href="https://bastyamasszazsstudio.simplybook.it/v2/#book/count/1/" target='_blank'>Foglalás</a>
             </div>
         </div>
     </div>
