@@ -1,9 +1,5 @@
-import Header from './Components/Header.jsx'
-import Hero from './Components/Hero.jsx'
-import Section from './Components/Section.jsx'
-import Footer from './Components/Footer.jsx'
-import Massage from './Components/Massage.jsx'
-import Contact from './Components/Contact.jsx'
+import { Header, Hero, Section, Footer, Massage, Contact, Payment} from './Components/'
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return(
@@ -13,7 +9,9 @@ function App() {
     <Section/>
     <Massage/>
     <Contact/>
+    <Payment/>
     <Footer/>
+    <ScrollToTop smooth/>
     </>
   )
 }

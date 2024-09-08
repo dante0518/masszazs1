@@ -12,8 +12,8 @@ import {
 
 function Massage() {
   return (
-    <div className="massage-container">
-        <h1>Kínálatunk</h1>
+    <div className="massage-container" id='szolgaltatasok'>
+        <h1>Szolgáltatásaink</h1>
         <div className="massage-card-container">
             <div className="massage-card">
                 <img src={Back} alt="hát" />

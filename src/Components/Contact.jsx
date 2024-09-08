@@ -22,7 +22,7 @@ function Contact() {
       }
 
   return (
-    <div className="contacts-container">
+    <div className="contacts-container" id='elerhetoseg'>
       <h1>Kapcsolat</h1>
       <div className="info-container">
         <p>

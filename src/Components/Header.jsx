@@ -34,18 +34,18 @@ function Header() {
     <div className="header-container">
         <img src={Logo} alt="logo" id='logo'/>
         <ul className='header-nav-links'>
-            <li><a href="#">Kezdőlap</a></li>
-            <li><a href="#">Elérhetőség</a></li>
-            <li><a href="#">Kapcsolat</a></li>
+            <li><a href="#top">Kezdőlap</a></li>
+            <li><a href="#szolgaltatasok">Szolgáltatások</a></li>
+            <li><a href="#elerhetoseg">Elérhetőség</a></li>
         </ul>
         <button className='button-reservation'>Foglalás</button>
-        <div className="mobile-menu">
-        <a href="javascript:void(0)" className='icon' onClick={openMenu}><i className='bi bi-list'></i></a>
-          <div className="myLinks">
-            <a href="">Kezdőlap</a>
-            <a href="">Elérhetőség</a>
-            <a href="">Kapcsolat</a>
-          </div>
+          <div className="mobile-menu">
+            <a href="javascript:void(0)" className='icon' onClick={openMenu}><i className='bi bi-list'></i></a>
+            <div className="myLinks">
+              <a href="#top">Kezdőlap</a>
+              <a href="#szolgaltatasok">Szolgáltatások</a>
+              <a href="#elerhetoseg">Elérhetőség</a>
+            </div>
         </div>
     </div>
   )
