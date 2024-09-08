@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../images/logo2.png'
 
+
 function Header() {
   // JavaScript function to toggle the menu
   function openMenu() {
@@ -28,8 +29,11 @@ function Header() {
       document.removeEventListener('click', handleOutsideClick);
     }
   }
-  
 
+  const handleClick = () => {
+    window.open('https://bastyamasszazsstudio.simplybook.it/v2/#book/count/1/', '_blank')
+  }
+  
   return (
     <div className="header-container">
         <img src={Logo} alt="logo" id='logo'/>
@@ -38,7 +42,7 @@ function Header() {
             <li><a href="#szolgaltatasok">Szolgáltatások</a></li>
             <li><a href="#elerhetoseg">Elérhetőség</a></li>
         </ul>
-        <button className='button-reservation'>Foglalás</button>
+        <button className='button-reservation' onClick={handleClick}>Foglalás</button>
           <div className="mobile-menu">
             <a href="javascript:void(0)" className='icon' onClick={openMenu}><i className='bi bi-list'></i></a>
             <div className="myLinks">

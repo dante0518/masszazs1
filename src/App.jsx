@@ -1,4 +1,4 @@
-import { Header, Hero, Section, Footer, Massage, Contact, Payment} from './Components/'
+import { Header, Hero, Section, Footer, Massage, Contact, Payment, BookingWidget} from './Components/'
 import ScrollToTop from "react-scroll-to-top";
 
 function App() {

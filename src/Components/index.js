@@ -7,6 +7,7 @@ import Footer from './Footer.jsx';
 import Massage from './Massage.jsx';
 import Contact from './Contact.jsx';
 import Payment from './Payment.jsx';
+import BookingWidget from './BookingWidget.jsx';
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   Massage,
   Contact,
   Payment,
+  BookingWidget,
 };
